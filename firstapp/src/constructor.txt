@@ -1,6 +1,7 @@
 assets: chức các loại là hình ảnh, font, color...
     images
     fonts
+    colors
 theme: chức các stylesheet css
     StyleCommon: là file chứa các style sheet chung dành cho toàn components
     StyleMain: là file chứa các style sheet dùng cho component Main
