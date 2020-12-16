@@ -1,0 +1,15 @@
+assets: chức các loại là hình ảnh, font, color...
+    images
+    fonts
+theme: chức các stylesheet css
+    StyleCommon: là file chứa các style sheet chung dành cho toàn components
+    StyleMain: là file chứa các style sheet dùng cho component Main
+    index: là file sẽ tổng hợp tất cả các style sheet trong folder theme để sử dụng
+reducers: chứa các reducers của các màn hình
+    index
+    các reducers
+containers: chứa các xử lý logic liên quan của từng màn hình
+components: chứa các màn hình hiển thị và các Constom Components
+navigators: chứa xử lý sự kiện di chuyển màn hình và định nghĩa các const cho các route màn hình
+common: chứa các định nghĩa key, value const
+untils: chứa các xử lý logic chung cho ứng dụng của bạn. ví dụ như: xử lý format thời gian, xử lý chuỗi, xử lý request...
