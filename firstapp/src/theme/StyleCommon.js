@@ -1,5 +1,7 @@
-import {StyleSheet} from 'react-native';
-import {colorBlue01} from './../assets/colors';
+import {StyleSheet, Dimensions} from 'react-native';
+import {colorBlue01, colorWhite} from './../assets/colors';
+
+const {height, width} = Dimensions.get('window'); // device height and width
 
 const StyleCommon = StyleSheet.create({
   flex1: {
@@ -40,6 +42,19 @@ const StyleCommon = StyleSheet.create({
     width: 24,
     height: 24,
     marginRight: 10,
+  },
+  buttonBox: {
+    width: '100%',
+    borderRadius: 32,
+    height: 56,
+    justifyContent: 'center',
+  },
+  buttonText: {
+    textAlign: 'center',
+    textTransform: 'uppercase',
+    color: colorWhite,
+    fontWeight: '700',
+    fontSize: 15,
   },
 });
 
